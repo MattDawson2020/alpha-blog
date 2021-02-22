@@ -16,7 +16,7 @@
         </div>
       </div>
      
-       <div class="form-group row">
+       <div class="form-group row mb-5">
         <%= f.label :password, class: "col-2 col-form-label text-light" %>
         <div class="col-10"> 
           <%= f.password_field :password, class: "form-control shadow rounded", placeholder: "Choose a password" %>
@@ -24,12 +24,12 @@
       </div>
      
       
-      <div class="form-group row justify-content-center">
+      <div class="form-group row justify-content-center mb-5">
         <%= f.submit(@user.new_record? ? "Sign up here" : "Update account", class: "btn btn-outline-light btn-lg") %>
       </div>
     <% end %>
   </div>
-  <div class="mb-5">
+  <div class="mb-5 mt-5">
     <%= link_to '[ Cancel and return to articles listing ]', articles_path, class: "return" %>
   </div>
 </div>
