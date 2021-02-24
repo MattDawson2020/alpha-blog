@@ -48,7 +48,7 @@ body {
     background-color: lightblue !important;
 }
 
-.form-control {
+.form-control, .custom-select {
     background-color: #F7FAFA !important;
 }
 
@@ -90,3 +90,7 @@ body {
     margin-right: 1em; }
   .flickr_pagination .next_page {
     margin-left: 1em; }
+
+.container {
+    height: 100%;
+}
