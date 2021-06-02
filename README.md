@@ -9,7 +9,6 @@ However this was something I understood going in, as it was intended to be a cra
 
 ```
 **From this I gained preliminary understanding into:**
-```
 -The MVC model, and what each of them did
 -Git and basic version control/ repositories
 -Basic HTML, CSS and SemanticUI
@@ -17,3 +16,4 @@ However this was something I understood going in, as it was intended to be a cra
 -The basics of Ruby on Rails, which would come back to help greatly in Makers week 8
 -How to create users, validations, and implement login/logout, authentication
 -Database associations through ActiveRecord
+```
